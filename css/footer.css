@@ -1,0 +1,17 @@
+#footer{
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+.footer-container{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-container img{
+    width: 14rem;
+}
+.footer-container h1{
+    font-size: 1.5rem;
+}

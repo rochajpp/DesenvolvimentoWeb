@@ -1,0 +1,40 @@
+@media(max-width: 1010px){
+    .footer-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 1004px){
+    .home-car{
+        display: none;
+    }
+}
+
+@media(max-width: 564px){
+    .home-logo{
+        width: 20rem;
+    }
+    .home-container p{
+        text-align: center;
+    }
+
+    .p-top, .p-bottom{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 504px){
+    header nav{
+        display: none;
+    }
+    .header-container{
+        justify-content: center;
+    }
+}
+@media(min-width: 505px){
+    .header-container{
+        justify-content: space-between;
+    }
+}

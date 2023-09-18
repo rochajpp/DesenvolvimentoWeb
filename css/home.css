@@ -1,0 +1,31 @@
+#home{
+    background: url("/img/background.png") center no-repeat;
+    background-size: cover;
+    
+}
+
+.home-container{
+    backdrop-filter: brightness(50%) blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 2rem;
+}
+
+.home-logo{
+    width: 30rem;
+}
+
+.p-top, .p-bottom{
+    position: relative;
+    top: -2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.p-top{
+    color: rgb(152, 0, 0);
+}
+.p-bottom{
+    color: white;
+}
