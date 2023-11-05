@@ -1,7 +1,7 @@
 #home{
     background: url("/img/background.png") center no-repeat;
     background-size: cover;
-    
+    height: 100vh;
 }
 
 .home-container{
@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     padding: 10rem 2rem;
+    height: 100vh;
 }
 
 .home-logo{
